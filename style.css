@@ -2,56 +2,56 @@
 @media (max-width: 800px) {
   .container {
     width: 92%;
-    max-width: 100%;
+  }
+
+  .nav {
+    min-height: 70px;
+  }
+
+  nav {
+    display: none;
+    position: absolute;
+    left: 4%;
+    right: 4%;
+    top: 72px;
+    background: #fff;
+    padding: 16px;
+    border: 1px solid #e6edf7;
+    border-radius: 12px;
+    box-shadow: 0 12px 30px rgba(0,0,0,.08);
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  .hero {
+    padding: 55px 0;
   }
 
   .hero-grid {
-    width: 100%;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+    gap: 16px;
   }
 
   .card,
-  .hero-card,
-  .opportunity-box {
+  .hero-card {
     width: 100%;
-    max-width: 100%;
   }
-  .how-to-start {
-  margin-top: 40px;
-  background: white;
-  padding: 30px;
-  border-radius: 15px;
-  border: 1px solid #e0e8f5;
-}
 
-.how-to-start h2 {
-  color: #0b1f3a;
-  margin-bottom: 20px;
-}
-
-.steps {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 15px;
-}
-
-.step {
-  background: #f4f8ff;
-  padding: 18px;
-  border-radius: 10px;
-}
-
-.step strong {
-  color: #1264e8;
-}
-
-@media (max-width: 700px) {
-  .steps {
-    grid-template-columns: 1fr;
+  .telegram-box {
+    flex-direction: column;
+    align-items: flex-start;
   }
-}
 
-  footer {
-    width: 100%;
-    clear: both;
+  .footer-inner {
+    flex-direction: column;
   }
 }
