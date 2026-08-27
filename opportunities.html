@@ -164,6 +164,47 @@
         font-size: 34px;
       }
     }
+
+    .how-to-apply {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  border: 1px solid #e0e8f5;
+  margin-top: 35px;
+}
+
+.how-to-apply h2 {
+  color: #0b1f3a;
+  margin-bottom: 10px;
+}
+
+.apply-intro {
+  margin-bottom: 25px;
+}
+
+.apply-steps {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.apply-step {
+  background: #f4f8ff;
+  padding: 18px;
+  border-radius: 10px;
+}
+
+.apply-step strong {
+  display: block;
+  color: #1264e8;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 700px) {
+  .apply-steps {
+    grid-template-columns: 1fr;
+  }
+}
   </style>
 </head>
 
